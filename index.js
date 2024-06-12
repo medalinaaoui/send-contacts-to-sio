@@ -19,8 +19,7 @@ const getContacts = async () => {
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "x-nextjs-data": "1",
-    cookie:
-      "systeme_affiliate_systemeio=sa00049710141577f695203eb02b688cff58ea7ff9f8; v=01HZYVKG3Z5RHTX87YRFZ8D6VF; _gcl_au=1.1.1813258395.1717948761; _fbp=fb.1.1717948763471.223140957224573501; _gac_UA-2610411-14=1.1717948765.Cj0KCQjwpZWzBhC0ARIsACvjWROdsTSeN-_DJku1AFjsPLeO_kNcge-9ozscl3rNneVCX-ivdpQbMlgaAm-6EALw_wcB; contact_cookie=2618299691e3c49951cab5acd861f3422105f1db0; contact_opt_in_date_cookie=1717949128; _gcl_aw=GCL.1717949131.Cj0KCQjwpZWzBhC0ARIsACvjWROdsTSeN-_DJku1AFjsPLeO_kNcge-9ozscl3rNneVCX-ivdpQbMlgaAm-6EALw_wcB; _ga=GA1.1.620551197.1717948763; _hjSessionUser_3235695=eyJpZCI6IjZhYzY5NTZkLTEwZDQtNWRkYy04YjNlLTRhY2EwMTEwNDcxMyIsImNyZWF0ZWQiOjE3MTc5NDkxMzE0ODMsImV4aXN0aW5nIjpmYWxzZX0=; __stripe_mid=7aa13c47-08d8-406f-a049-9fd109d72921a02698; uslug=81837876f4126731a5f8118968debc5df7a7c27; dashboard_locale=en; _ga_XCFQZ5TE6W=GS1.1.1717948763.1.1.1717950539.60.0.0; sio_trusted_device=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTc5NTQxMjguNzk5NDMsImV4cCI6MTcxODU1ODkyOC43OTk0MDksInVzciI6InNobmF5ZGVlcjBAZ21haWwuY29tIiwiZndsIjoic3lzdGVtZWlvIiwidnNuIjowfQ.mmWBIbSGZc58i2ybEGVFAePV7PoJ9AdNQemLYWdY11s; sio_u=kd9ifjprvkr2hmas8gadbhqe3s; sio_api=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MTgxMTQ5MTIsImV4cCI6MTcxODcxOTcxMiwiaWQiOjgxODM3ODcsImVtYWlsIjoic2huYXlkZWVyMEBnbWFpbC5jb20ifQ.HTX97LQimxmV92h0btr5ZvlN3_ZbmSW_YT3P55EyGjx28hYJ8HvKfxc0Cz_nxeYJ9IpYQuImxV3DtQ_sBuvqW1wwEorrdMjvkoirFW1khFO7ltbwSjWsSG47l_7p1-pOAxEUW_GS5bUtXLQAV5h1IB3xY8AkftdovSIBfXQyOSHFU6ARJi8R8N4mAPYyPNU1dZVKPqit1U1kPJUJiX-GL1_moWomyhh0_1KBuy0JiXp17HCV11sViH-9GrpZ7Rz022bJSoztttZBBuQwHG0cKtFwwTgjoY1uOSlUMR4xo7GLJEgtNfr4xA9Sq2pXj78feCnbGNZWiF_Gy0IR0shFaA",
+    cookie: "ss",
     Referer: "https://systeme.io/dashboard/contacts",
     "Referrer-Policy": "strict-origin-when-cross-origin",
   });
@@ -103,8 +102,7 @@ const getTargetInfo = async (url) => {
     "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin",
     "x-nextjs-data": "1",
-    cookie:
-      "systeme_affiliate_systemeio=sa00049710141577f695203eb02b688cff58ea7ff9f8; v=01HZYVKG3Z5RHTX87YRFZ8D6VF; _gcl_au=1.1.1813258395.1717948761; _fbp=fb.1.1717948763471.223140957224573501; _gac_UA-2610411-14=1.1717948765.Cj0KCQjwpZWzBhC0ARIsACvjWROdsTSeN-_DJku1AFjsPLeO_kNcge-9ozscl3rNneVCX-ivdpQbMlgaAm-6EALw_wcB; contact_cookie=2618299691e3c49951cab5acd861f3422105f1db0; contact_opt_in_date_cookie=1717949128; _gcl_aw=GCL.1717949131.Cj0KCQjwpZWzBhC0ARIsACvjWROdsTSeN-_DJku1AFjsPLeO_kNcge-9ozscl3rNneVCX-ivdpQbMlgaAm-6EALw_wcB; _ga=GA1.1.620551197.1717948763; _hjSessionUser_3235695=eyJpZCI6IjZhYzY5NTZkLTEwZDQtNWRkYy04YjNlLTRhY2EwMTEwNDcxMyIsImNyZWF0ZWQiOjE3MTc5NDkxMzE0ODMsImV4aXN0aW5nIjpmYWxzZX0=; __stripe_mid=7aa13c47-08d8-406f-a049-9fd109d72921a02698; uslug=81837876f4126731a5f8118968debc5df7a7c27; dashboard_locale=en; _ga_XCFQZ5TE6W=GS1.1.1717948763.1.1.1717950539.60.0.0; sio_trusted_device=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MTc5NTQxMjguNzk5NDMsImV4cCI6MTcxODU1ODkyOC43OTk0MDksInVzciI6InNobmF5ZGVlcjBAZ21haWwuY29tIiwiZndsIjoic3lzdGVtZWlvIiwidnNuIjowfQ.mmWBIbSGZc58i2ybEGVFAePV7PoJ9AdNQemLYWdY11s; sio_u=kd9ifjprvkr2hmas8gadbhqe3s; sio_api=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MTgxMTQ5MTIsImV4cCI6MTcxODcxOTcxMiwiaWQiOjgxODM3ODcsImVtYWlsIjoic2huYXlkZWVyMEBnbWFpbC5jb20ifQ.HTX97LQimxmV92h0btr5ZvlN3_ZbmSW_YT3P55EyGjx28hYJ8HvKfxc0Cz_nxeYJ9IpYQuImxV3DtQ_sBuvqW1wwEorrdMjvkoirFW1khFO7ltbwSjWsSG47l_7p1-pOAxEUW_GS5bUtXLQAV5h1IB3xY8AkftdovSIBfXQyOSHFU6ARJi8R8N4mAPYyPNU1dZVKPqit1U1kPJUJiX-GL1_moWomyhh0_1KBuy0JiXp17HCV11sViH-9GrpZ7Rz022bJSoztttZBBuQwHG0cKtFwwTgjoY1uOSlUMR4xo7GLJEgtNfr4xA9Sq2pXj78feCnbGNZWiF_Gy0IR0shFaA",
+    cookie: "ss",
     Referer: "https://systeme.io/dashboard/contacts",
     "Referrer-Policy": "strict-origin-when-cross-origin",
   });
@@ -154,16 +152,19 @@ const getTargetInfo = async (url) => {
 };
 
 const getAllInfos = async () => {
-  const contacts = await getContacts();
+  try {
+    const contacts = await getContacts();
 
-  contacts?.forEach(async (contact) => {
-    if (contact) {
-      console.log("starts");
-      
-      const contactInfos = await getTargetInfo(contact);
-      console.log(contactInfos);
+    for (const contact of contacts) {
+      if (contact) {
+        console.log("starts");
+        const contactInfos = await getTargetInfo(contact);
+        console.log(contactInfos);
+      }
     }
-  });
+  } catch (error) {
+    console.error("An error occurred:", error);
+  }
 };
 
 getAllInfos();
